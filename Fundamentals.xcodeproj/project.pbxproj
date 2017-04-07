@@ -10,6 +10,11 @@
 		8F9DC4FF1E97DAF900469AA4 /* Fundamentals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9DC4F51E97DAF800469AA4 /* Fundamentals.framework */; };
 		8F9DC5041E97DAF900469AA4 /* FundamentalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC5031E97DAF900469AA4 /* FundamentalsTests.swift */; };
 		8F9DC5061E97DAF900469AA4 /* Fundamentals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9DC4F81E97DAF800469AA4 /* Fundamentals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9DC5101E97DB1900469AA4 /* OptionalEquality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC50F1E97DB1900469AA4 /* OptionalEquality.swift */; };
+		8F9DC5121E97DCBB00469AA4 /* OptionalEqualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC5111E97DCBB00469AA4 /* OptionalEqualityTests.swift */; };
+		8F9DC5141E97DDB800469AA4 /* OptionalComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC5131E97DDB800469AA4 /* OptionalComparable.swift */; };
+		8F9DC5161E97ED6E00469AA4 /* OptionalAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC5151E97ED6E00469AA4 /* OptionalAssignment.swift */; };
+		8F9DC5181E97EEE400469AA4 /* OptionalAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DC5171E97EEE400469AA4 /* OptionalAssignmentTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		8F9DC4FE1E97DAF900469AA4 /* FundamentalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundamentalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9DC5031E97DAF900469AA4 /* FundamentalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundamentalsTests.swift; sourceTree = "<group>"; };
 		8F9DC5051E97DAF900469AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9DC50F1E97DB1900469AA4 /* OptionalEquality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalEquality.swift; sourceTree = "<group>"; };
+		8F9DC5111E97DCBB00469AA4 /* OptionalEqualityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalEqualityTests.swift; sourceTree = "<group>"; };
+		8F9DC5131E97DDB800469AA4 /* OptionalComparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalComparable.swift; sourceTree = "<group>"; };
+		8F9DC5151E97ED6E00469AA4 /* OptionalAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalAssignment.swift; sourceTree = "<group>"; };
+		8F9DC5171E97EEE400469AA4 /* OptionalAssignmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalAssignmentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				8F9DC4F81E97DAF800469AA4 /* Fundamentals.h */,
+				8F9DC50F1E97DB1900469AA4 /* OptionalEquality.swift */,
+				8F9DC5131E97DDB800469AA4 /* OptionalComparable.swift */,
+				8F9DC5151E97ED6E00469AA4 /* OptionalAssignment.swift */,
 				8F9DC4F91E97DAF800469AA4 /* Info.plist */,
 			);
 			path = Fundamentals;
@@ -81,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				8F9DC5031E97DAF900469AA4 /* FundamentalsTests.swift */,
+				8F9DC5111E97DCBB00469AA4 /* OptionalEqualityTests.swift */,
+				8F9DC5171E97EEE400469AA4 /* OptionalAssignmentTests.swift */,
 				8F9DC5051E97DAF900469AA4 /* Info.plist */,
 			);
 			path = FundamentalsTests;
@@ -149,6 +164,7 @@
 					8F9DC4F41E97DAF800469AA4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9HQR3Y4WE5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8F9DC4FD1E97DAF900469AA4 = {
@@ -198,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9DC5161E97ED6E00469AA4 /* OptionalAssignment.swift in Sources */,
+				8F9DC5101E97DB1900469AA4 /* OptionalEquality.swift in Sources */,
+				8F9DC5141E97DDB800469AA4 /* OptionalComparable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9DC5041E97DAF900469AA4 /* FundamentalsTests.swift in Sources */,
+				8F9DC5121E97DCBB00469AA4 /* OptionalEqualityTests.swift in Sources */,
+				8F9DC5181E97EEE400469AA4 /* OptionalAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +343,7 @@
 		8F9DC50A1E97DAF900469AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
@@ -334,6 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.Fundamentals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +364,7 @@
 		8F9DC50B1E97DAF900469AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
@@ -360,6 +384,7 @@
 		8F9DC50D1E97DAF900469AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
 				INFOPLIST_FILE = FundamentalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +397,7 @@
 		8F9DC50E1E97DAF900469AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
 				INFOPLIST_FILE = FundamentalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
